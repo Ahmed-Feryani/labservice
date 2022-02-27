@@ -1,0 +1,67 @@
+.contain {
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 18px;
+}
+.contain h1 {
+  color: white;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.contain tr {
+}
+.contain__select {
+  display: flex;
+  justify-content: flex-end;
+}
+.contain__select select {
+  border-radius: 4px;
+  width: 20rem;
+  margin-bottom: 5rem;
+  box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+}
+.tab {
+  width: 90% !important;
+}
+.tab table {
+  margin: 0 !important;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.3);
+}
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50px;
+}
+.notFinish {
+  border: red solid 1px;
+  color: rgb(250, 60, 60);
+
+  background-color: rgb(255, 213, 213);
+}
+.Finish {
+  border: rgb(0, 255, 136) solid 1px;
+  color: rgb(13, 138, 90);
+
+  background-color: rgb(213, 255, 246);
+}
+.nnff {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ed {
+  font-size: 25px;
+  cursor: pointer;
+}
+.ed:hover {
+  color: brown;
+}

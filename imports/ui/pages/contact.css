@@ -1,0 +1,100 @@
+.contact {
+  margin-top: 12vh;
+}
+.contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.contact .row .map {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  width: 100%;
+}
+
+.contact .row form {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
+  padding: 2rem;
+  border: 0.2rem solid #334;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #334;
+  padding-bottom: 1rem;
+}
+
+.contact .row form .inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.contact .row form .inputBox input {
+  width: 49%;
+}
+
+.contact .row form .inputBox input,
+.contact .row form textarea {
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  color: #777;
+  margin: 0.7rem 0;
+  border: 0.2rem solid #334;
+}
+
+.contact .row form .inputBox input:focus,
+.contact .row form textarea:focus {
+  background: #334;
+  color: #fff;
+}
+
+.contact .row form .inputBox input:focus::-webkit-input-placeholder,
+.contact .row form textarea:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact .row form .inputBox input:focus:-ms-input-placeholder,
+.contact .row form textarea:focus:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact .row form .inputBox input:focus::-ms-input-placeholder,
+.contact .row form textarea:focus::-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact .row form .inputBox input:focus::placeholder,
+.contact .row form textarea:focus::placeholder {
+  color: #fff;
+}
+
+.contact .row form textarea {
+  width: 100%;
+  height: 15rem;
+  resize: none;
+}
+.contact .btna {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid #000000;
+  background: #f0fdfa;
+  color: #585858;
+  cursor: pointer;
+  text-transform: capitalize;
+}

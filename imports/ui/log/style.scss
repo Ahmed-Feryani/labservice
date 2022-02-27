@@ -1,0 +1,31 @@
+.login-box {
+  width: 75rem;
+  padding: 2rem;
+  background: #f5f5f5;
+  .MuiInputBase-input {
+    font-size: 1.6rem;
+    background: #fff;
+  }
+}
+.login-tabs {
+  &__head {
+    .MuiButtonBase-root {
+      width: 50%;
+    }
+  }
+  .MuiInputBase-adornedEnd {
+    background: #fff;
+  }
+}
+.login-btn {
+  .MuiButton-root {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+.logg {
+  min-height: 100vh;
+  /* display: flex; */
+  /* background-image: url("./img/back.webp");
+  background-position: center;
+  background-size: cover; */
+  background-color: white;
+}
